@@ -7,7 +7,7 @@ on:
 jobs:
   close:
     if: github.repository == 'hashicorp-education/learn-terraform-github-actions'
-    runs-on: ubuntu-latest
+    runs-on: ubicloud-standard-4
     steps:
     - uses: superbrothers/close-pull-request@v3
       with:
